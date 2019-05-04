@@ -5,7 +5,7 @@
 Backend : Laravel 5.8</p>
 <h2><a id="Installation_Local_11"></a>Installation Local</h2>
 <p>Laravel :<br>
-CD into the directory of this project and run the following three commands:</p>
+CD into the directory of this project and run the following  commands:</p>
 <ol>
 <li>composer install</li>
 <li>php artisan migrate</li>
@@ -14,7 +14,7 @@ CD into the directory of this project and run the following three commands:</p>
 <p>&lt;option&gt;<br>
 If you want some example data run : php artisan db:seed</p>
 <p>Angular :<br>
-CD into the directory of this project and run the following three commands:</p>
+CD into the directory of this project and run the following commands:</p>
 <ol>
 <li>npm install</li>
 <li>ng serve</li>
