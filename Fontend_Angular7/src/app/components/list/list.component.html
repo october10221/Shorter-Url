@@ -1,0 +1,28 @@
+<main>
+  <section class="section section-shaped section-lg shape bg-gradient-info">
+    <div class="container pt-lg-md">
+      <div class="row justify-content-center">
+            <div class="row table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Site Original</th>
+                    <th scope="col">Short Url</th>
+                    <th scope="col">Create At</th>
+                    <th scope="col">View</th>
+                  </tr>
+                </thead>
+                <tbody class="text-white" *ngFor="let value of data; let i=index;">
+                    <tr>
+                      <td><a class="text-white" href="{{value.name_site}}">{{value.name_site}}</a></td>
+                      <td><a class="text-white" href="https://ok-place.com/api/{{value.code}}">https://ok-place.com/api/{{value.code}}</a></td>
+                      <td>{{value.create_at}}</td>
+                      <td>{{value.view}}</td>
+                    </tr>
+                </tbody>
+              </table>
+            </div>
+      </div>
+    </div>
+  </section>
+</main>
